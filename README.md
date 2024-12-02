@@ -1,4 +1,4 @@
-# Advent of Code 2024
-My Solutions for the 2024 Advent of Code
+# 🎄 Advent of Code 2024
+My Solutions for the 2024 Advent of Code written in Python
 
-Each day contains both part 1 and part 2
+Each day contains both Part 1 and Part 2
