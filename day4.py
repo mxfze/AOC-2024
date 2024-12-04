@@ -8,7 +8,7 @@ with open("input.txt", "r") as file:
     for i in file:
         places.append(i)
 
-
+#Part 1
 for v, i in enumerate(places):
     for index, location in enumerate(i):
         if i[index:index+4] == "XMAS":
@@ -28,7 +28,7 @@ for v, i in enumerate(places):
         if v < 137 and location == "S" and places[v+1][index+1] == "A" and places[v+2][index+2] == "M" and places[v+3][index+3] == "X": #SAMX Diagonal Right
             count +=1
 
-
+#Part 2
 for v, i in enumerate(places):
     for index, location in enumerate(i):
         if index < 138 and v < 138 and i[index] == "M" and i[index+2] == "S":
