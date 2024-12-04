@@ -29,7 +29,7 @@ with open("input.txt", "r") as file:
             safe+=1
             part2safe +=1
         else:
-            #Part 1
+            #Part 2
             for x in range(len(report)):
                 modified_list = report[:x] + report[x + 1:]
                 if is_safe(modified_list):
